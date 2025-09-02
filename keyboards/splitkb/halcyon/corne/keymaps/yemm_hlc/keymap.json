@@ -3,7 +3,16 @@
     "keyboard": "splitkb/halcyon/corne/rev2",
     "keymap": "yemm_hlc",
     "layout": "LAYOUT_corne_hlc",
-
+    "macros": [
+        [
+            {"action": "tap", "keycodes": ["X_QUOT"]},
+            {"action": "tap", "keycodes": ["X_SPC"]}
+        ],
+        [
+            {"action": "tap", "keycodes": ["X_GRV"]},
+            {"action": "tap", "keycodes": ["X_SPC"]}
+        ]
+    ],
     "layers": [
         [
             "KC_TAB",
@@ -154,8 +163,8 @@
             "LSFT_T(KC_EQL)",
             "LCTL_T(KC_MINS)",
             "LALT_T(KC_PPLS)",
-            "KC_PGUP",
-            "KC_LEFT",
+            "QK_MACRO_0",
+            "QK_MACRO_1",
             "KC_PGUP",
             "KC_LEFT",
             "RALT_T(KC_DOWN)",
