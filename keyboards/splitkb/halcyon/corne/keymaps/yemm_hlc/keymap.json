@@ -5,12 +5,12 @@
     "layout": "LAYOUT_corne_hlc",
     "macros": [
         [
-            {"action": "tap", "keycodes": ["X_QUOT"]},
-            {"action": "tap", "keycodes": ["X_SPC"]}
+            {"action": "tap", "keycodes": ["KC_QUOT"]},
+            {"action": "tap", "keycodes": ["KC_SPC"]}
         ],
         [
-            {"action": "tap", "keycodes": ["X_GRV"]},
-            {"action": "tap", "keycodes": ["X_SPC"]}
+            {"action": "tap", "keycodes": ["KC_GRV"]},
+            {"action": "tap", "keycodes": ["KC_SPC"]}
         ]
     ],
     "layers": [
